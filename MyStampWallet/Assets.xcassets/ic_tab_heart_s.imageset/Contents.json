@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "idiom" : "iphone",
+      "filename" : "ic_tab_heart_s.png"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

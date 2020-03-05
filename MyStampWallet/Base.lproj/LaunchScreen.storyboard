@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_splash_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="mzn-BA-juK">
+                                <rect key="frame" x="0.0" y="845" width="414" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="mzn-BA-juK" secondAttribute="height" multiplier="138:17" id="lPW-tg-AmG"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_splash_center" translatesAutoresizingMaskIntoConstraints="NO" id="RaN-HJ-e5j">
+                                <rect key="frame" x="22" y="144" width="370" height="493"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="RaN-HJ-e5j" secondAttribute="height" multiplier="3:4" id="qOk-0F-97G"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VeV-ov-EQ8">
+                                <rect key="frame" x="20" y="687" width="374" height="78"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" text="Dein digitaler Wallet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="9pC-JO-gct">
+                                        <rect key="frame" x="0.0" y="0.0" width="294" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="zdS-h4-RMX"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <color key="textColor" red="1" green="0.84313725490196079" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" text="- für all deine Stempelkarten" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="gpM-7e-8rk">
+                                        <rect key="frame" x="0.0" y="43" width="374" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="hLY-3q-BQz"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <color key="textColor" red="1" green="0.84313725490000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="gpM-7e-8rk" firstAttribute="top" secondItem="9pC-JO-gct" secondAttribute="bottom" constant="8" id="4gh-DU-qcA"/>
+                                    <constraint firstItem="gpM-7e-8rk" firstAttribute="top" secondItem="9pC-JO-gct" secondAttribute="bottom" constant="8" id="A2j-RA-iej"/>
+                                    <constraint firstItem="gpM-7e-8rk" firstAttribute="leading" secondItem="VeV-ov-EQ8" secondAttribute="leading" id="Kjt-g8-vUQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="9pC-JO-gct" secondAttribute="trailing" constant="80" id="RFm-al-h0X"/>
+                                    <constraint firstItem="9pC-JO-gct" firstAttribute="leading" secondItem="VeV-ov-EQ8" secondAttribute="leading" id="Rby-Io-WtY"/>
+                                    <constraint firstItem="9pC-JO-gct" firstAttribute="top" secondItem="VeV-ov-EQ8" secondAttribute="top" id="UCs-f7-pV4"/>
+                                    <constraint firstAttribute="height" constant="78" id="a2H-K5-dCv"/>
+                                    <constraint firstAttribute="trailing" secondItem="gpM-7e-8rk" secondAttribute="trailing" id="kem-sI-vJx"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mzn-BA-juK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3Gv-Ls-9AN"/>
+                            <constraint firstItem="mzn-BA-juK" firstAttribute="top" secondItem="VeV-ov-EQ8" secondAttribute="bottom" constant="80" id="Elg-lY-i8t"/>
+                            <constraint firstItem="RaN-HJ-e5j" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="JDL-HE-IQv"/>
+                            <constraint firstItem="mzn-BA-juK" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="OXR-zA-iCP"/>
+                            <constraint firstItem="VeV-ov-EQ8" firstAttribute="top" secondItem="RaN-HJ-e5j" secondAttribute="bottom" constant="50" id="d6U-2o-7tV"/>
+                            <constraint firstAttribute="bottom" secondItem="mzn-BA-juK" secondAttribute="bottom" id="fcG-zZ-46u"/>
+                            <constraint firstItem="VeV-ov-EQ8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="hue-pR-Y6Y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VeV-ov-EQ8" secondAttribute="trailing" constant="20" id="uu0-jv-oFV"/>
+                            <constraint firstItem="RaN-HJ-e5j" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="z7s-f5-lU0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.625" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_splash_bottom" width="375" height="46"/>
+        <image name="ic_splash_center" width="165" height="299"/>
+    </resources>
+</document>
